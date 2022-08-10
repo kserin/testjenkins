@@ -8,7 +8,9 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'echo "Test !"'
+                script {
+                    println "Executed !"
+                }
             }
         }
     }
