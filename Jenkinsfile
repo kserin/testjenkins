@@ -1,5 +1,6 @@
 pipeline {
     options {
+        skipDefaultCheckout(true)
         dryRun(onBranchIndexing: true)
     }
 
